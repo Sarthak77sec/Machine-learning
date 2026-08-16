@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow Git metadata/configuration
+!.gitignore
+!README.md
+
+# Allow ML notebooks and Python files
+!*.ipynb
+!*.py
+
+# Allow datasets
+!*.csv
+
+# Never upload Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
